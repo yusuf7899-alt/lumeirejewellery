@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Lumeire Jewellery — Dubai, UAE</title>
+  <desc id="desc">An elegant circular white jewellery seal with fine champagne-gold rings, a diamond motif, and serif Lumeire Jewellery lettering.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c7b77d"/>
+      <stop offset="0.48" stop-color="#f0e8c6"/>
+      <stop offset="1" stop-color="#b6a15d"/>
+    </linearGradient>
+    <linearGradient id="goldText" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8e8051"/>
+      <stop offset="1" stop-color="#716744"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular ivory seal; the outer area is transparent for flexible use. -->
+  <circle cx="500" cy="500" r="485" fill="#fffefa"/>
+  <circle cx="500" cy="500" r="469" fill="none" stroke="url(#gold)" stroke-width="3.2"/>
+  <circle cx="500" cy="500" r="440" fill="none" stroke="#d9cea0" stroke-width="2.1"/>
+
+  <!-- Upper fine arc and its central accent -->
+  <path d="M 286 230 Q 500 144 714 230" fill="none" stroke="url(#gold)" stroke-width="2.8" stroke-linecap="round"/>
+  <circle cx="500" cy="180" r="5.5" fill="url(#gold)"/>
+
+  <!-- Small outlined diamond emblem -->
+  <path d="M500 305 L526 337 L500 369 L474 337 Z" fill="none" stroke="url(#gold)" stroke-width="3.2"/>
+  <path d="M500 314 L518 337 L500 360 L482 337 Z" fill="#f5efd9" stroke="#ded2a7" stroke-width="1.4"/>
+
+  <!-- Main wordmark -->
+  <text x="500" y="522" text-anchor="middle"
+        font-family="Liberation Serif, Times New Roman, Georgia, serif"
+        font-size="100" font-weight="500" letter-spacing="6.5" fill="#171615">LUMEIRE</text>
+
+  <!-- Divider -->
+  <path d="M 365 565 H 635" fill="none" stroke="#9e9b90" stroke-width="1.35"/>
+
+  <!-- Descriptor and location -->
+  <text x="500" y="615" text-anchor="middle"
+        font-family="Liberation Serif, Times New Roman, Georgia, serif"
+        font-size="27" font-weight="600" letter-spacing="7.4" fill="url(#goldText)">JEWELLERY</text>
+  <text x="500" y="666" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="16" font-weight="400" letter-spacing="4.4" fill="#a8a7a1">DUBAI · UAE</text>
+
+  <!-- Lower balancing arc and accent -->
+  <path d="M 286 766 Q 500 852 714 766" fill="none" stroke="url(#gold)" stroke-width="2.8" stroke-linecap="round"/>
+  <circle cx="500" cy="816" r="5.2" fill="url(#gold)"/>
+</svg>
